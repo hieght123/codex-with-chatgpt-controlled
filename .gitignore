@@ -1,0 +1,27 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+tokens*
+secrets*
+
+# Connector state and generated output
+runtime/
+state/
+logs/
+tmp/
+coverage/
+dist/
+node_modules/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
